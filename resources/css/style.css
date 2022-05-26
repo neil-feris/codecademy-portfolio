@@ -1,0 +1,17 @@
+body {
+    /* display: flex; */
+    color: rgb(244, 225, 225);
+    background-color: rgb(117, 110, 110);
+}
+
+h1 {
+    /* position: absolute; */
+    top: 0;
+    align-self: right;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
