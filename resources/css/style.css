@@ -1,17 +1,35 @@
 body {
-    /* display: flex; */
-    color: rgb(244, 225, 225);
-    background-color: rgb(117, 110, 110);
+  font-family: Roboto;
+  color: rgb(244, 225, 225);
+  background-color: rgb(117, 110, 110);
 }
 
 h1 {
-    /* position: absolute; */
-    top: 0;
-    align-self: right;
+  font-size: 2.5rem;
+  font-family: "Fira Mono";
 }
 
+nav li {
+  display: inline;
+  justify-self: center;
+  padding: 0.25rem;
+  /* background-color: rgb(244, 225, 225); */
+}
 nav {
-    position: absolute;
-    top: 0;
-    right: 10%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 20px;
+}
+
+img {
+  padding: 0.25rem;
+  align-items: center;
+  margin: 0;
+  width: 480px;
+  height: 360px;
+}
+
+section p {
+  font-family: "";
 }
