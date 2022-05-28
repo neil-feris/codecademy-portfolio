@@ -30,6 +30,10 @@ img {
   height: 360px;
 }
 
+li {
+  list-style: circle;
+}
+
 section p {
   font-family: "";
 }

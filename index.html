@@ -12,9 +12,10 @@
     />
     <link rel="stylesheet" href="./resources/css/style.css" />
     <title>Neil Feris</title>
+    <script src="./resources/scripts/main.js" async></script>
   </head>
   <body>
-    <nav>
+    <nav id="nav" style="display: none">
       <ul>
         <li><a href="./">Home</a></li>
         <li><a href="./projects.html">Projects</a></li>
@@ -27,10 +28,12 @@
 
     <main>
       <section class="welcome">
+        <p>Welcome to my portfolio site.</p>
         <p>
-          Welcome to my portfolio site. Here you will find links to all my past,
-          current and future projects.
+          Here you will find links to all my past, current and future projects.
         </p>
+        <p>Click the button to see more.</p>
+        <div id="menu-btn"><input type="submit" value="See menu"></input></div>
       </section>
     </main>
   </body>
