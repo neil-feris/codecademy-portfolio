@@ -15,26 +15,32 @@
     <script src="./resources/scripts/main.js" async></script>
   </head>
   <body>
-    <nav id="nav" style="display: none">
-      <ul>
-        <li><a href="./">Home</a></li>
-        <li><a href="./projects.html">Projects</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contacts</a></li>
-      </ul>
-    </nav>
+    <div class="content-wrap">
+      <nav id="nav" style="display: none">
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
 
-    <header><h1>Neil Feris</h1></header>
+    <header><div class="content-wrap">
+      <h1>Neil Feris</h1>
+    </div></header>
 
-    <main>
-      <section class="welcome">
-        <p>Welcome to my portfolio site.</p>
-        <p>
-          Here you will find links to all my past, current and future projects.
-        </p>
-        <p>Click the button to see more.</p>
-        <div id="menu-btn"><input type="submit" value="See menu"></input></div>
-      </section>
+    <main><div class="content-wrap">
+      
+        <section class="welcome">
+          <p>Welcome to my portfolio site.</p>
+          <p>
+            Here you will find links to all my past, current and future projects.
+          </p>
+          <p>Click the button to see more.</p>
+          <div id="menu-btn"><input type="submit" value="See menu"></input></div>
+        </section>
+    </div>
     </main>
   </body>
 </html>
